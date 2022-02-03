@@ -1,6 +1,7 @@
 body {
-    background: rgb(121,0,147);
-    background: linear-gradient(90deg, rgba(121,0,147,1) 0%, rgba(255,0,217,1) 50%, rgba(155,0,172,1) 100%);
+    background: rgb(255,0,0);
+background: linear-gradient(180deg, rgba(255,0,0,1) 0%, rgba(255,184,184,1) 40%, rgba(249,102,102,1) 80%, rgba(242,0,0,1) 100%);
+
 }
 html {
     scroll-behavior:smooth;
@@ -11,34 +12,61 @@ html {
     padding: 25px;
     margin: 0 auto;
     text-align: justify;
-    background-color:rgb(105, 7, 134);
+    background-color:rgb(134, 7, 7);
     border-radius: 60px 60px;
     border-style: inherit;
     border-color: rgb(76, 133, 199);
 }
 
+.wrapper:hover{
+    box-shadow: 2px 5px 50px rgb(107, 16, 16);
+}
+
+p:hover {
+    box-shadow: 2px 5px 50px rgb(187, 4, 50);
+    margin: auto -100px;
+    font-size: 22px;
+    transition: 300ms;
+    border-radius: 50px 50px;
+
+}
+
+aside:hover {
+    background-color:rgb(0, 0, 0);
+    border-radius:40px;
+    transition: 300ms;
+    box-shadow: 2px 5px 50px rgb(0, 0, 0);
+}
+.frtxt:hover{
+    transition: 300ms;
+    border-radius: 50px 50px;
+    box-shadow: 2px 5px 50px rgb(255, 0, 0);
+}
+
 header {
     width: 400px;
     margin: 0 auto;
-    border-radius: 50px;
+    border-radius: 5px;
     font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
     font-size: 36px;
     text-align: center;
     letter-spacing: 5px;
-    background: rgb(121,0,147);
-    background: linear-gradient(90deg, rgba(121,0,147,1) 0%, rgba(255,0,217,1) 50%, rgba(155,0,172,1) 100%);
-    border-style: solid;
-    border-color: rgb(186, 148, 236);
-    color: rgb(214, 195, 248);
+    background: rgb(224,0,0);
+    background: linear-gradient(90deg, rgba(224,0,0,0.9906337535014006) 0%, rgba(255,0,179,1) 50%, rgba(228,0,0,0) 100%);
+    border-style: groove;
+    border-color: rgb(236, 63, 57);
+    color: rgb(226, 226, 226);
+    box-shadow: 2px 5px 50px rgb(255, 0, 0);
 }
 
 h2 {
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     font-size: 24px;
     margin: 20px auto;
     text-align: center;
-    background: rgb(255,255,255);
-    background: linear-gradient(90deg, rgb(255, 0, 234) 0%, rgba(0, 10, 124, 0) 50%, rgb(255, 0, 234) 100%);
+    font-style: italic;
+    background: rgb(255,0,0);
+    background: linear-gradient(90deg, rgba(255,0,0,0) 0%, rgba(255,0,0,1) 50%, rgba(242,0,0,0) 100%);
 }
 
 .txt {
@@ -50,24 +78,23 @@ P {
     font-size: 17px;
     padding: 15px;
     text-align: center;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    border-radius: 3px;
-    background-color:#c2bdbd;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color:#dddddd;
 
 }
 
 .frtxt {
-    background-color: rgb(205, 130, 228);
+    background-color: rgb(248, 123, 123);
     width: 700px;
     height: 0 auto;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
     font-size: 19px;
     border-radius: 10px;
     padding-top: 10px;
     padding-bottom: 10px;
     padding-right: 10px;
     margin: 0 auto;
-    border-style: dashed;
+    border-style: initial;
 
 }
 
@@ -97,14 +124,13 @@ P {
 }
 
 aside {
-    border-style:dashed ;
-    background: rgb(34, 195, 195);
-    background: linear-gradient(180deg, rgb(165, 9, 238) 0%, rgb(195, 110, 212) 100%);
-    border-color:black ;
+    border-style:solid ;
+    background: rgb(255,0,0);
+    background: linear-gradient(180deg, rgba(255,0,0,1) 0%, rgb(207, 205, 205) 40%, rgba(249,102,102,1) 80%, rgba(242,0,0,1) 100%);
+    border-color:rgb(247, 96, 96) ;
     width: 150px;
-    float: left;
     position: fixed;
-    padding: 0px auto;
+    padding: 15px;
 
 }
 
@@ -118,6 +144,7 @@ aside {
 .arrowTop {
     padding-left: 40px;
 }
+
 
 .arrowBot {
     padding-left: 40px;

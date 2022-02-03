@@ -17,6 +17,31 @@ html {
     border-color: rgb(76, 133, 199);
 }
 
+.wrapper:hover{
+    box-shadow: 2px 5px 50px rgb(93, 3, 236);
+}
+
+p:hover {
+    box-shadow: 2px 5px 50px rgb(28, 196, 247);
+    margin: auto -100px;
+    font-size: 22px;
+    transition: 300ms;
+    border-radius: 50px 50px;
+
+}
+
+aside:hover {
+    background-color:rgb(182, 177, 177);
+    border-radius:40px;
+    transition: 300ms;
+    box-shadow: 2px 5px 50px rgb(3, 52, 185);
+}
+.frtxt:hover{
+    transition: 300ms;
+    border-radius: 50px 50px;
+    box-shadow: 2px 5px 50px rgb(4, 142, 177);
+}
+
 header {
     width: 225px;
     margin: 0 auto;
