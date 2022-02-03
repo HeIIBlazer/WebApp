@@ -56,10 +56,11 @@ P {
 }
 
 .frtxt {
-    background-color: rgb(94, 91, 241);
-    width: 660px;
+    background-color: rgb(135, 133, 240);
+    width: 700px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     border-radius: 10px;
+    font-size: 19px;
     padding-top: 10px;
     padding-bottom: 10px;
     padding-right: 10px;
@@ -87,7 +88,7 @@ P {
 
 }
 
-.strcimg2{
+.strcimg2 {
     width: 1200px;
     padding: 25px;
     margin:-20px auto;

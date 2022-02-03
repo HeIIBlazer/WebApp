@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>AngularJS</title>
+    <link rel="stylesheet" href="stylesangu.css">
+</head>
+<body>
+    
+    <aside>  
+        <ul>
+            <li class="link"><a href="index.html">Home</a></li>
+            <li class="link"><a href="css.html">CSS</a></li>
+            <li class="link"><a href="html.html">HTML</a></li>
+            <li class="link"><a href="bootstrap.html">Bootstrap</a></li>
+            <li class="link">AngularJS</a></li>
+        </ul>
+    </aside>
+
+    <div class="wrapper">
+        <header>
+            <h1>AngularJS</h1>
+        </header>
+
+        <main>
+            <section>
+                <article class="txt">
+                    <br>
+                    <h2> Что такое AngularJS?</h2>
+                    <p>
+                        <strong>Angular.JS</strong> — это фреймворк для работы с <strong>JavaScript</strong> , поддерживаемый Google. 
+                        Он используется для создания одностраничных приложений и 
+                        позволяет взаимодействовать с <strong>DOM</strong> (англ. <strong>Document Object Model</strong>  — объектная модель документа).
+                    </p>
+                </article>
+                <article>
+                <h2> Кто он работает?</h2>
+                    <p>
+                        Работает <strong>Angular.JS</strong> по схеме <strong>MVC</strong> (англ. <strong>Model-View-Controller</strong> — модель-вид-контроллер)
+                        — она разделяет приложение на три отдельных части, которые можно изменять независимо друг от друга.
+                    </p>
+                        <ul class="frtxt">
+                            <li>Модель - Предоставляет информацию и реагирует на команды контроллера;</li>
+                            <li>Вид - Отвечает за отображение данных модели и следит за изменениями.;</li>
+                            <li>Контроллер - Реагирует на действия пользователя и оповещает модель о том, что нужно обновиться.;</li>
+                        </ul>
+                    
+                    <p>
+                        Такая схема позволяет легко работать с фреймворком, быстро писать код и тестировать его.
+                    </p>
+                </article>
+
+                <article>
+                    <h2>Чем отличается Angular.JS от других фреймворков?</h2>
+                    <p>
+                        Главное отличие <strong>Angular.JS</strong> в том, что он позволяет вставить код прямо в <strong>HTML</strong>.
+                        Вот как это реализуется на чистом JS:
+                    </p> 
+
+                    <div class="strcimg"><img class="structure2" src="Images/angular_pic1.png" alt="structure1" width="600px"></div>
+
+                    <p>
+                        На <strong>JQuery</strong>:
+                    </p>
+
+                    <div class="strcimg"><img class="structure2" src="Images/anguler_pic3.png" alt="structure2" width="600px"></div>
+
+                    <p>
+                        В первом случае получается громоздкий код. Более компактно выходит на jQuery, но всё равно не сравнится с тем, как это можно написать на Angular.JS:
+                    </p>
+
+                    <div class="strcimg"><img class="structure2" src="Images/angular_pic2.png" alt="structure1" width="600px"></div>
+
+                    <p>
+                        Всё, что мы сделали, — это указали атрибуты ng-app для контейнера и ng-model для поля ввода.
+                        Фреймворк реагировал на каждое изменение модели и записывал вводимые данные в переменную SomeText. 
+                        После этого менялся текст — там, где стоит шаблонизатор {{НазваниеПеременной}}.
+
+                        <br><br>
+
+                        То есть <strong>Angular.JS</strong> самостоятельно отследил изменение поля ввода, поменял значение переменной и обновил вывод в HTML-коде. 
+                        Разработчику нужно только указать директивы (об этом ниже). В этом заключается основное отличие фреймворка от других.
+                    </p>
+
+                <article>
+
+                    <h2>Приемущества</h2>
+                    <p>
+                        Фреймворк <strong>Bootstrap</strong> – это проект с открытым исходным кодом, доступным на <strong>Github</strong>. 
+                        Он имеет лицензию <strong>MIT</strong>. Это означает, что его можно бесплатно использовать как в открытых, так и в коммерческих проектах.
+                        Преимущества <strong>Bootstrap</strong> при его использовании для frontend разработки сайтов и интерфейсов админок:
+                    </p>
+
+                    <ul class="frtxt">
+                        <li>высокая скорость создания качественной адаптивной вёрстки;</li>
+                        <li>кроссбраузерность и кроссплатформеннось;</li>
+                        <li>наличие большого количество готовых хорошо продуманных компонентов;</li>
+                        <li>возможность настройки под свой проект;</li>
+                        <li>низкий порог вхождения;</li>
+                        <li>однородность дизайна и его согласованность между различными компонентами;</li>
+                        <li>наличие огромного количества сообществ и обучающих материалов;</li>
+                    </ul>
+
+                </article>
+
+                <article>
+                    <h2>Где используется Angular.JS</h2>
+                    <p>
+                        Многие разработчики жалуются, что фреймворк работает 
+                        медленно из-за того, что приходится постоянно отслеживать все модели, прописанные в коде. 
+                        Однако на <strong>Angular.JS</strong> запущены крупные сайты:
+                    </p>
+                        <ul class="frtxt">
+                            <li>видеохостинг <strong>YouTube</strong>;</li>
+                            <li>крупнейшая биржа фрилансеров <strong>UpWork.com</strong>;</li>
+                            <li>веб-версия мессенджера <strong>Telegram</strong>;</li>
+                            <li>биржа фрилансеров <strong>freelancer.com</strong>;</li>
+                            <li>сайт компании <strong>Bosch</strong>;</li>
+                            <li>сайт <strong>AT&T</strong>;</li>
+                            <li>сайт <strong>General Electrics</strong> и другие.</li>
+                        </ul>
+
+                        <p>
+                            Фреймворк востребован и среди менее крупных компаний — около 2300 вакансий на сайте <strong>hh.ru</strong> по запросу <strong>Angular</strong>
+                            Поэтому новичку будет просто найти работу.
+                        </p>
+                    </article>
+
+
+                <article>
+                    <h2>заключение</h2>
+                    <p>
+                        Несмотря на противоречивое отношение программистов к фреймворку, <strong>Angular</strong> популярен. 
+                        На это влияют удобство и очень подробная и понятная документация на официальном сайте <strong>AngularJS</strong>.
+                    </p>
+                </article>
+            </section>
+        </main>
+
+        <footer>
+            <a id="bottom"><strong>03-02-2022</strong></a>
+        </footer>
+    </div>
+    
+
+
+    <div class="asidee">
+
+        <a href="#top"><img class="arrowTop" src="Images/Arrow_Up.png" alt="arrowTop" width="60px"></a>
+        <br><br>
+        <a href="#bottom"><img class="arrowBot" src="Images/Arrow_Down.png" alt="arrowBot" width="60px"></a>
+    </div>
+</body>
+</html>

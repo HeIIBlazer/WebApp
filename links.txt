@@ -4,3 +4,5 @@ https://gb.ru/posts/chto-takoe-css-obyasnyaem-prostymi-slovami - css
 
 http://web.spt42.ru/index.php/chto-takoe-bootstrap - bootstrap
 https://itchief.ru/bootstrap/introduction - bootstrap
+
+https://skillbox.ru/media/code/kak_napisat_odnostranichnoe_prilozhenie_na_angular_js/ -AmgularJS

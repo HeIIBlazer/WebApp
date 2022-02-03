@@ -11,7 +11,7 @@ html {
     padding: 25px;
     margin: 0 auto;
     text-align: justify;
-    background-color:rgb(69, 4, 88);
+    background-color:rgb(105, 7, 134);
     border-radius: 60px 60px;
     border-style: inherit;
     border-color: rgb(76, 133, 199);
@@ -58,7 +58,7 @@ P {
 .frtxt {
     background-color: rgb(205, 130, 228);
     width: 700px;
-    height: 200px;
+    /* height: 200px; */
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 19px;
     border-radius: 10px;
@@ -90,7 +90,7 @@ P {
 
 }
 
-.strcimg2{
+.strcimg2 {
     width: 1200px;
     padding: 25px;
     margin:-20px auto;

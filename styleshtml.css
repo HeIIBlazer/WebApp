@@ -55,7 +55,9 @@ P {
 
 .frtxt {
     background-color: rgb(223, 216, 180);
-    width: 660px;
+    width: 450px;
+
+    font-size: 19px;
     border-radius: 10px;
     padding-top: 10px;
     padding-bottom: 10px;
